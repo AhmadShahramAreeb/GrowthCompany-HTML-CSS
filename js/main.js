@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /*The toggle method is used to add the active class to the
    mobileMenu element if it doesn’t already have it, or remove it if it does.*/
+   
   hamburgerButton.addEventListener("click", () => {
     mobileMenu.classList.toggle("active");
   });
